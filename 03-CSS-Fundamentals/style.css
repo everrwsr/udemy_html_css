@@ -2,6 +2,12 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  color: #444444;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h2 {
@@ -53,4 +59,75 @@ article p {
 #copyright {
   font-style: italic;
   font_size: 15px;
+  color: black;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related-list {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+body {
+  /* background-color: orange; */
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+/* 
+li:last-child(even) {
+  color: red;
+} */
+
+/*miscomception :doesn't work */
+article p:first-child {
+  color: red;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/*LVHA  */
+
+footer p {
+  color: green;
 }
